@@ -1,1 +1,16 @@
-theme: jekyll-theme-tactile
+title: Minh Le
+author: Minh Le
+email: minhle.r7@protonmail.com
+
+remote_theme: samarsault/plainwhite-jekyll
+# theme: jekyll-theme-tactile
+theme: plainwhite
+plainwhite:
+  name: Minh Le
+  tagline: Data scientist. AI Researcher
+  date_format: "%b %-d, %Y"
+  portfolio_image: "assets/ava2.jpg"
+  social_links:
+    twitter: minhle_r7
+    github: minhlab
+    linkedIn: in/minh-le-795ba817 # format: locale/username
