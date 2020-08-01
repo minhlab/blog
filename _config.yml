@@ -2,10 +2,10 @@ title: Minh Le
 author: Minh Le
 email: minhle.r7@protonmail.com
 
-remote_theme: samarsault/plainwhite-jekyll
-# theme: jekyll-theme-tactile
-theme: plainwhite
 plainwhite:
+  dark_mode: true
+  html_lang: "en"
+
   name: Minh Le
   tagline: Data scientist. AI Researcher
   date_format: "%b %-d, %Y"
@@ -14,6 +14,10 @@ plainwhite:
     twitter: minhle_r7
     github: minhlab
     linkedIn: in/minh-le-795ba817 # format: locale/username
+  
+theme: plainwhite
+remote_theme: samarsault/plainwhite-jekyll
+# theme: jekyll-theme-tactile
 
 plugins:
   - jekyll-seo-tag # otherwise github would throw an error
