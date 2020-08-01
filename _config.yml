@@ -2,7 +2,7 @@ title: Minh Le
 author: Minh Le
 email: minhle.r7@protonmail.com
 
-# remote_theme: samarsault/plainwhite-jekyll
+remote_theme: samarsault/plainwhite-jekyll
 # theme: jekyll-theme-tactile
 theme: plainwhite
 plainwhite:
