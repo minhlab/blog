@@ -14,3 +14,6 @@ plainwhite:
     twitter: minhle_r7
     github: minhlab
     linkedIn: in/minh-le-795ba817 # format: locale/username
+
+plugins:
+  - jekyll-seo-tag # otherwise github would throw an error
