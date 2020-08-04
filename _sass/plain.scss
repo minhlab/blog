@@ -247,7 +247,30 @@ main {
   h6 {
     font-family: Raleway, sans-serif;
   }
+  ol {
+    list-style-type: decimal;
+    ol {
+      list-style-type: lower-alpha;
+      ol {
+        list-style-type: lower-roman;
+      }
+    }
+  }
 }
+
+.quickpost {
+
+    counter-reset: h2counter;
+    h1 {
+        counter-reset: h2counter;
+    }
+    h2:before {
+        content: counter(h2counter, upper-roman) ".\0000a0\0000a0";
+        counter-increment: h2counter;
+    }
+
+}
+
 .posts-labelgroup {
   margin: 0 0 0.67em 0;
   display: flex;
